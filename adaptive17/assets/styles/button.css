@@ -1,0 +1,52 @@
+.button {
+	border-radius: 6px;
+	border: 1px solid #565656;
+	padding: 10px 20px;
+	color: #565656;
+	transition: color, background-color .6s;
+	cursor: pointer;
+	display: inline-block;
+	width: 150px;
+}
+
+.button:hover {
+	background-color: grey;
+	color: white;
+}
+
+.button.-success {
+	background-color: #23db57;
+	border: none;
+	color: #fff;
+}
+
+.button.-success:hover {
+	background-color: white;
+	border: 1px solid #23db57;
+	color:  #23db57;
+}
+
+
+
+@media screen and (max-width: 1032px){
+	.button{
+		font-size: 13px;
+	}
+}
+
+@media screen and (max-width: 824px){
+	.button{
+		font-size: 13px;
+		margin-top: 30px;
+		align-self: center;	
+	}
+}
+
+@media screen and (max-width: 824px){
+	.button{
+		width: 100%;
+		text-align: center;
+	}
+
+
+}

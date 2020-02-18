@@ -1,0 +1,22 @@
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+@media screen and (max-width: 1032px){
+	.container {
+		width: 768px;
+	}
+}
+
+@media screen and (max-width: 824px){
+	.container {
+		width: 100%;
+	}
+}

@@ -1,0 +1,16 @@
+.-g-mr15 {
+	margin-right: 15px;
+}
+
+.-g-ml15 {
+	margin-left: 15px;
+}
+
+@media screen and (max-width: 824px){
+	.-g-mr15{
+		margin: 0;	}
+
+	.-g-ml15{
+		margin: 0;
+	}
+}
