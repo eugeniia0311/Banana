@@ -1,0 +1,15 @@
+.location h2{
+	padding-bottom: 30px;
+}
+
+.location{
+	height: 600px;
+}
+
+.map{
+	width: 100%;
+}
+
+.map iframe{
+	width: 100%;
+}
